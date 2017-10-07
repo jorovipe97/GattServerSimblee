@@ -125,7 +125,7 @@ int delay_until_button(int state)
     // en debate:
     // La alarma se mantiene ejecutando mientras el pin sea false, (state=true)
     // es decir cuando esta funcion esta esperando a que se precione el boton
-    Serial.println(buttonStatus);
+    //Serial.println(buttonStatus);
     if (!buttonStatus && canTurnOnAlarm)
     {
         blinkLed(500);
